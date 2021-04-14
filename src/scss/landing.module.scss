@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Reenie Beanie";
+
+  p {
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.image {
+  visibility: hidden;
+}
+.title {
+  visibility: hidden;
+}

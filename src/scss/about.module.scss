@@ -1,0 +1,60 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Reenie Beanie";
+  position: relative;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+img {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  width: 5.5em;
+  font-size: 1.9em;
+}
+li {
+  padding: 0.8em 0 0.8em 0;
+  border-radius: 76% 24% 41% 59% / 56% 80% 20% 44%;
+  position: relative;
+  transition: border-radius 1s;
+  font-family: "Reenie Beanie";
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    border-bottom: 2px solid rgb(102, 102, 102);
+    top: 1.8em;
+    transition: width 1s;
+  }
+}
+
+li:hover {
+  border: 2px solid grey;
+  border-radius: 30% 70% 73% 27% / 30% 30% 70% 70%;
+  transition: border-radius 0.8s;
+  &:before {
+    width: 80%;
+  }
+}
+
+.desription {
+  visibility: hidden;
+}
