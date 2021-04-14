@@ -32,7 +32,7 @@ const Landing = () => {
       delay: 0.3,
       duration: 2,
       ease: Bounce.easeOut,
-      x: 120,
+      x: 110,
     })
   }, [])
   return (
